@@ -32,17 +32,52 @@ $$
 \Delta \;:=\; \mathbb{Z}_{>0}\setminus\operatorname{Pred}(1).
 $$
 
-On the positive integers, a forward orbit that never hits \(1\) either enters a cycle that does not contain \(1\), or visits no integer twice and is unbounded. Hence the dichotomy
+Write
+
+- \(\Delta_{\mathrm{cyc}}\) for the set of \(n\) whose forward orbit eventually enters a cycle that does not contain \(1\),
+- \(\Delta_{\mathrm{div}}\) for the set of \(n\) whose forward orbit visits no integer twice and is unbounded.
+
+---
+
+## Lemma D (dichotomy; proved)
 
 $$
 \Delta=\Delta_{\mathrm{cyc}}\cup\Delta_{\mathrm{div}}.
 $$
 
-There is no third cell: a bounded non-cycling orbit in \(\mathbb{Z}_{>0}\) would repeat a value, hence cycle.
+*Proof.* Let \(n>0\) and suppose \(n\notin\operatorname{Pred}(1)\). The forward orbit never equals \(1\). If some value repeats, the orbit has entered a cycle; that cycle cannot contain \(1\), so \(n\in\Delta_{\mathrm{cyc}}\). If no value repeats, the orbit is an infinite injective sequence in \(\mathbb{Z}_{>0}\), hence unbounded, so \(n\in\Delta_{\mathrm{div}}\). There is no third cell: a bounded non-cycling orbit in \(\mathbb{Z}_{>0}\) would repeat a value by finiteness, hence cycle.
 
 ---
 
-## Missing Lemma L (Collatz)
+## Lemma 1 (no second cycle; OPEN)
+
+$$
+\Delta_{\mathrm{cyc}}=\emptyset.
+$$
+
+That is: \(C_+\) has no positive cycle other than \(4\to 2\to 1\).
+
+Partial results, not a proof: Steiner rules out a nontrivial one-odd-term cycle; later work rules out many short cycle types; Eliahou constrains the length of any other cycle given a verification floor; Barina implies no other cycle intersects \(\{1,\ldots,2^{71}-1\}\).
+
+**Status: open.**
+
+---
+
+## Lemma 2 (no divergent ray; OPEN)
+
+$$
+\Delta_{\mathrm{div}}=\emptyset.
+$$
+
+That is: no positive orbit of \(C_+\) is infinite, injective, and unbounded.
+
+Partial results, not a proof: Terras, a density-one set of starts has finite stopping time; Tao, almost all orbits (logarithmic density) become almost bounded; Barina, no divergent ray starts in \(\{1,\ldots,2^{71}-1\}\).
+
+**Status: open.**
+
+---
+
+## Lemma 3 / Missing Lemma L (Collatz; OPEN)
 
 For every integer \(n>0\) there exists an integer \(k\ge 0\) such that
 
@@ -50,27 +85,17 @@ $$
 C_+^k(n)=1.
 $$
 
-Equivalently, the forward orbit of \(n\) enters the cycle \(4\to 2\to 1\).
-
-Equivalently,
-
-$$
-\operatorname{Pred}(1)=\mathbb{Z}_{>0}\qquad(\Delta=\emptyset).
-$$
-
-**Status: open.** This is the Collatz conjecture.
+Equivalently, the forward orbit of \(n\) enters \(4\to 2\to 1\). Equivalently \(\operatorname{Pred}(1)=\mathbb{Z}_{>0}\).
 
 ---
 
-## Discharge conditions
+## Conditional theorem (proved as an implication)
 
-Any one of the following, together with the dichotomy above, would prove L:
+Lemma D + Lemma 1 + Lemma 2 imply Lemma L.
 
-1. \(\Delta_{\mathrm{cyc}}=\emptyset\) and \(\Delta_{\mathrm{div}}=\emptyset\).
-2. \(\operatorname{Pred}(1)=\mathbb{N}\).
-3. A second-cycle obstruction that covers every residue class, together with a proof that no positive orbit diverges.
+*Proof.* By D, \(\Delta=\Delta_{\mathrm{cyc}}\cup\Delta_{\mathrm{div}}\). Lemmas 1 and 2 empty both cells, so \(\Delta=\emptyset\), so every \(n>0\) lies in \(\operatorname{Pred}(1)\).
 
-These three are equivalent to L. None of them is proved in this repository.
+The implication is not a discharge of L. Lemmas 1 and 2 remain open. This repository does not prove Collatz.
 
 ---
 
@@ -81,7 +106,5 @@ These three are equivalent to L. None of them is proved in this repository.
 - Theorem 3 / Corollary 4: \(C_-\) has three positive cycles; the shared shape does not force a unique sink.
 - Theorem 5: \(\operatorname{Pred}(1)\) is infinite.
 - Theorem 6: under the geometric model, \(\mathbb{E}[\log M_a]=\log(a/4)\).
-
-Barina empties \(\Delta\) on \(\{1,\ldots,2^{71}-1\}\). Steiner and Eliahou constrain \(\Delta_{\mathrm{cyc}}\). Terras and Tao constrain almost all orbits. None of those is L.
 
 Do not deposit this file as a solution of the Collatz conjecture.
