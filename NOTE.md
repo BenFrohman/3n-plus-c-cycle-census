@@ -6,7 +6,7 @@ Benjamin Stanley Frohman
 frohmanbenjamin@gmail.com  
 ORCID 0009-0006-7068-3718  
 https://github.com/BenFrohman/3n-plus-c-cycle-census  
-23 September 2026
+24 September 2026
 
 ## 1. The problem
 
@@ -31,7 +31,13 @@ C_{-c}(n) = -C_c(-n).
 
 Proof: if n is even both sides equal n/2. If n is odd, C_{-c}(n) = 3n-c and -C_c(-n) = -(3(-n)+c) = 3n-c.
 
-Corollary: the three known positive cycles of 3n-1 are the three known negative cycles of 3n+1 with every sign flipped.
+Corollary: the three known positive cycles of 3n-1 are the three known negative cycles of 3n+1 with every sign flipped. Written in full:
+
+- 1 → 2 → 1
+- 5 → 14 → 7 → 20 → 10 → 5
+- 17 → 50 → 25 → 74 → 37 → 110 → 55 → 164 → 82 → 41 → 122 → 61 → 182 → 91 → 272 → 136 → 68 → 34 → 17
+
+These are cycles of C_-, not of C_+. They do not lie in Δ_cyc(C_+).
 
 ## 3. Impact, stated without inflation
 
@@ -49,17 +55,17 @@ Primitive: gcd of the terms is 1.
 
 ## 5-8. Catalog and 5n+1 unresolved counts
 
-See CATALOG.md for every sequence. Summary:
+See CATALOG.md and docs/C_MINUS_CYCLES.md for every sequence. Summary:
 
 - 3n+1: one cycle (1,4,2) at every bound through 10,000.
-- 3n-1: three cycles after N >= 17. Basins at N=1000: 349 / 306 / 345.
+- 3n-1: three cycles after N >= 17, written above. Basins at N=1000: 349 / 306 / 345.
 - 3n+5 at N=10,000: six cycles, zero unresolved. Odd cores (1); (5) scaled; (19,31,49); (23,37,29); two length-44 primitives first seen at 123 (min 187) and 171 (min 347).
 - 5n+1: three cycles at N=100,200,500. Unresolved 60, then 139, then 389. Odd cores (1,3), (13,33,83), (17,43,27). Escape is not proved divergence.
 
 ## 9. Literature
 
-Terras 1976; Lagarias 1985/1990/2010; Steiner 1977; Eliahou 1993; Belaga-Mignotte 1998/2000/2006; Holden 2011; Chamberland survey; Tao 2022; Barina 2025; Matthews-Watts; Crandall 1978; Metzger 1999; Conway 1972; Roosendaal; OEIS A006877, A006577, A003079, A003124.
+Terras 1976; Lagarias 1985/1990/2010; Steiner 1977; Eliahou 1993; Belaga-Mignotte 1998/2000/2006; Holden 2011; Chamberland survey; Tao 2020 notes and 2019/2022; Barina 2025; Matthews-Watts; Crandall 1978; Metzger 1999; Conway 1972; Roosendaal; OEIS A006877, A006577, A003079, A003124.
 
 ## 10. What is not proved
 
-The Collatz conjecture is open. The 3n-1 conjecture is open. Divergence of any single 5n+1 orbit is open. This note is a verified catalog and a literature map.
+The Collatz conjecture is open. The 3n-1 conjecture (every positive orbit of C_- reaches one of the three cycles above) is open. Divergence of any single 5n+1 orbit is open. This note is a verified catalog and a literature map.
