@@ -37,13 +37,15 @@ Corollary: the three known positive cycles of 3n-1 are the three known negative 
 - 5 → 14 → 7 → 20 → 10 → 5
 - 17 → 50 → 25 → 74 → 37 → 110 → 55 → 164 → 82 → 41 → 122 → 61 → 182 → 91 → 272 → 136 → 68 → 34 → 17
 
-These are cycles of C_-, not of C_+. They do not lie in Δ_cyc(C_+).
+These are cycles of C_-, not of C_+. They do not lie in Δ_cyc(C_+). They are not renamed here.
 
 ## 3. Impact, stated without inflation
 
 - Collatz is one cell of a family. Replacing +1 by an odd c changes the cycle portrait. Lagarias (1990) stated primitive-cycle existence and finiteness conjectures for T_d. Both remain open in general.
 - Belaga and Mignotte (2000, 2006) tabulated 42,765 primitive cycles on 6,667 systems d <= 19,999. Primitive cycles for d != 1 are common. The rare object is a second positive cycle of d = +1.
 - The sign of the Syracuse drift log(a/4) predicts the qualitative picture: a = 3 falls (heuristic), a = 5 grows (heuristic). A proof technique that cannot see that difference is too coarse to settle Collatz. That is a constraint on arguments, not a solution.
+- Frohman observation. Call μ_F = log(3/4) the Frohman model mean (Tao: non-rigorous heuristic for C_+). On C_- the same large-n average is still log(3/4), and two extra cycles already exist. So μ_F < 0 does not mean one attractor. Odd-to-odd log-sum 0 on a cycle is the definition of a cycle, not a contradiction. Comparison orbit at 27: C_+ goes 27 → 82 → 41; C_- goes 27 → 80 → 40 → 20 → 10 → 5 into the 5-cycle. That start is classical. It is not a new periodic orbit.
+- On starts 1..1000 under C_-, basins are 349 / 306 / 345 into the three known cycles. A basin count is not the C_- analogue of Collatz.
 - Barina (2025) checked every n < 2^{71} under 3n+1. The present prefix N <= 10,000 is a readable toy of that check, written out in CATALOG.md.
 
 ## 4. Census rule
@@ -68,4 +70,4 @@ Terras 1976; Lagarias 1985/1990/2010; Steiner 1977; Eliahou 1993; Belaga-Mignott
 
 ## 10. What is not proved
 
-The Collatz conjecture is open. The 3n-1 conjecture (every positive orbit of C_- reaches one of the three cycles above) is open. Divergence of any single 5n+1 orbit is open. This note is a verified catalog and a literature map.
+The Collatz conjecture is open. The 3n-1 conjecture (every positive orbit of C_- reaches one of the three cycles above) is open. Divergence of any single 5n+1 orbit is open. This note is a verified catalog and a literature map. No cycle in this note is a newly discovered Frohman cycle.
