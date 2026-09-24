@@ -1,11 +1,10 @@
-# Lemma 1 details
+# Lemma 1 (open)
 
-**Status: OPEN.** This file is not a proof that \(\Delta_{\mathrm{cyc}}=\emptyset\).
-
-Author: Benjamin Stanley Frohman (frohmanbenjamin@gmail.com)  
+Author: Benjamin Stanley Frohman (frohmanbenjamin@gmail.com)
 Repository: https://github.com/BenFrohman/3n-plus-c-cycle-census
 
-Lemma 1 is the no-second-cycle half of Collatz. Details below are constraints and equivalent forms, not a proof that the set is empty.
+This file records constraints and equivalent forms of Lemma 1.
+It is **not** a proof that \(\Delta_{\mathrm{cyc}}=\emptyset\).
 
 ---
 
@@ -77,13 +76,13 @@ If Lemma 1 fails, \(\Delta_{\mathrm{cyc}}\) is infinite: the extra cycle plus it
 
 ---
 
-## What does *not* prove Lemma 1
+## What does not prove Lemma 1
 
 - The shape of the rule. \(C_-\) has three positive cycles.
 - Model drift \(\log(3/4)<0\). Cycles have realized drift \(0\).
 - Theorem 5 (infinite inverse tree of \(1\)). That tree can coexist with another tree.
 - Lemma D or Lemma R. Those are about the partition of \(\Delta\), not about emptying one cell.
-- Graph theory. The functional graph restates D; connectivity of \(G_+\) is L again.
+- Graph theory of the functional graph \(G_+\). Connectivity of \(G_+\) restates L; it does not empty extra components.
 
 ---
 
@@ -92,5 +91,3 @@ If Lemma 1 fails, \(\Delta_{\mathrm{cyc}}\) is infinite: the extra cycle plus it
 Show that the Steiner identity has no other positive integer solution \((K,L,n_0,v_0,\ldots,v_{K-1})\), or that every such solution forces some \(n_i\le X_0\), contradicting Barina. That Diophantine statement is open.
 
 Lemma 1 remains open. It is half of Lemma L. The other half is Lemma 2.
-
-Do not deposit this file as a solution of the Collatz conjecture.
