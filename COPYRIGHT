@@ -1,12 +1,10 @@
 Copyright (c) 2026 Benjamin Stanley Frohman
+All rights reserved except as granted by LICENSE (CC BY 4.0).
+
+Author: Benjamin Stanley Frohman
 Email: frohmanbenjamin@gmail.com
-ORCID: https://orcid.org/0009-0006-7068-3718
+ORCID: 0009-0006-7068-3718
+GitHub: BenFrohman
 X: @Investor0x
 
-Repository: https://github.com/BenFrohman/3n-plus-c-cycle-census
-License: Creative Commons Attribution 4.0 International (CC BY 4.0)
-
-All original text in this repository is copyright the author above and released under CC BY 4.0.
-Cited theorems of Steiner, Eliahou, Terras, Tao, Barina, Simons, de Weger, Hercher, Lagarias, and others remain the work of those authors.
-
-This work does not claim to prove the Collatz conjecture.
+Every file in this repository is part of this work, including NOTE.md and docs/ added 24 September 2026.
