@@ -9,7 +9,7 @@ authors:
     orcid: "https://orcid.org/0009-0006-7068-3718"
     alias: Investor0x
 repository-code: "https://github.com/BenFrohman/3n-plus-c-cycle-census"
-license: CC-BY-4.0
+license: Apache-2.0
 keywords:
   - Collatz
   - 3n+1

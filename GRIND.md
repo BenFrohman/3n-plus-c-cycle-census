@@ -1,7 +1,7 @@
 # Grind toward Lemmas 1 and 2 (not a discharge)
 
 Author: Benjamin Stanley Frohman (frohmanbenjamin@gmail.com)
-Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under CC BY 4.0.
+Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0.
 Repository: https://github.com/BenFrohman/3n-plus-c-cycle-census
 
 This file records local work. Lemma 1, Lemma 2, and Lemma L remain open.
