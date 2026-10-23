@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # Cross-reference
 
 This census repo is about maps C_c and C_5, plus one verified Collatz instance.

@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # What would discharge Lemmas 1, 2, and L
 
 **None of the items below is proved in this repository.**

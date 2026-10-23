@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # Pointer — K=1 grind
 
 Canonical note: [BenFrohman/collatz-teaming-lemma docs/GRIND_K1_K2_LYAPUNOV.md](https://github.com/BenFrohman/collatz-teaming-lemma/blob/main/docs/GRIND_K1_K2_LYAPUNOV.md)

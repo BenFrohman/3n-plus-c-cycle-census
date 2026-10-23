@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # Frohman model mean
 
 μ_F = log(3/4). Ledger name for the expected odd-to-odd contraction of 3n+1.

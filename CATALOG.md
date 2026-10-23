@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # 3n+c family (odd c, positives)
 
 Search of starts 1..N. Cycles above N are invisible. Not a proof of Collatz.

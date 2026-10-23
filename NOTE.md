@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # A prefix census of 3n+c and 5n+1 cycles, with one verified Collatz instance
 
 **Not a proof of the Collatz conjecture.**

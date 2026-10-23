@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # Lemma 2 (open)
 
 Author: Benjamin Stanley Frohman (frohmanbenjamin@gmail.com)

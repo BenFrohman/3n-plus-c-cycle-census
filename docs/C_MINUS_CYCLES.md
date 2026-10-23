@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # Positive cycles of C_- = 3n-1
 
 Paper companion to NOTE.md §2 corollary and CATALOG.md.

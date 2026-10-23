@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 Canonical text: https://github.com/BenFrohman/collatz-teaming-lemma/blob/main/docs/papers/MU_F_SLOGAN_NOTE.md
 
 Title: Negative expected drift does not imply a unique attractor at 1.
