@@ -48,3 +48,7 @@ Companion machine (separate license): [the-3n-plus-1-machine](https://github.com
 ## Deposit
 
 This text is ready to upload to Zenodo as a *technical note / data set*. Do not deposit it as a solution of the Collatz conjecture.
+
+## License
+
+Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under the Apache License, Version 2.0 (see [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE)).
