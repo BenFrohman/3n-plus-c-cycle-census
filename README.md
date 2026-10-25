@@ -1,3 +1,15 @@
+<!-- ZENODO-PROVENANCE-HEADER -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23629488.svg)](https://doi.org/10.5281/zenodo.23629488)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--7068--3718-brightgreen.svg)](https://orcid.org/0009-0006-7068-3718)
+
+> **Author:** Benjamin Stanley Frohman ([ORCID: 0009-0006-7068-3718](https://orcid.org/0009-0006-7068-3718))  
+> **Origin Provenance:** `2026-09-23 23:54:15 CDT (Git Initial Commit)`  
+> **Zenodo Archive & DOI:** [`10.5281/zenodo.23629488`](https://doi.org/10.5281/zenodo.23629488) ([Zenodo Record `23629488`](https://zenodo.org/records/23629488))  
+> **Primary Manuscript PDF:** [`Frohman_3n_plus_c_Cycle_Census_2026.pdf`](./Frohman_3n_plus_c_Cycle_Census_2026.pdf)  
+> **Copyright & License:** Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under the Apache License, Version 2.0 ([`LICENSE`](./LICENSE), [`NOTICE`](./NOTICE)).
+<!-- /ZENODO-PROVENANCE-HEADER -->
+
 <!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # 3n+c cycle census
 

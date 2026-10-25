@@ -1,0 +1,39 @@
+% Copyright (c) 2026 Benjamin Stanley Frohman. All rights reserved.
+% Released under Apache 2.0 license as described in the file LICENSE.
+% Authors: Benjamin Stanley Frohman (ORCID: 0009-0006-7068-3718)
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\newtheorem{theorem}{Theorem}
+
+\title{\textbf{A Prefix Census of $3n+c$ and $5n+1$ Cycles, with One Verified Collatz Delay-Record Instance}}
+\author{Benjamin Stanley Frohman\\
+\small Independent Researcher \quad|\quad ORCID: \href{https://orcid.org/0009-0006-7068-3718}{0009-0006-7068-3718}\\
+\small \texttt{frohmanbenjamin@gmail.com}}
+\date{Origin Provenance: September 23, 2026 (23:54:15 CDT) \\ \small Repository: \texttt{BenFrohman/3n-plus-c-cycle-census} \quad|\quad Licensed under Apache-2.0}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We provide a cryptographically hashed computational census of periodic cycles for the generalized hailstone family $C_c(n) = n/2$ ($n$ even), $3n+c$ ($n$ odd) and $C_5(n) = n/2$ ($n$ even), $5n+1$ ($n$ odd), alongside an exact 1348-step trajectory certificate for the maximal delay-record start below $10^{12}$, $n = 989{,}345{,}275{,}647$, reaching $1$ with peak $1{,}219{,}624{,}271{,}099{,}764 < 2^{53}-1$ (SHA-256 trajectory digest \texttt{f406d4f31af4402276e39a48d0d68e4e587ca0a318913a0b196d5da68332ed87}). We prove the sign-conjugacy identity $C_{-c}(n) = -C_c(-n)$, catalog the basin splits of $3n-1$ ($349/306/345$ across the cycles at $1, 5, 17$ for starts $1\dots 1000$) and the six cycles of $3n+5$ (including both length-44 primitive cycles), and align all tables with Belaga--Mignotte and Holden.
+\end{abstract}
+
+\section{Main Theorems and Verified Census}
+\begin{theorem}[Verified Delay-Record Instance Below $10^{12}$]
+For $n_0 = 989{,}345{,}275{,}647$, the classical Collatz map $C_+$ satisfies
+\[
+C_+^{1348}(989{,}345{,}275{,}647) = 1, \qquad \max_{0 \le k \le 1348} C_+^k(n_0) = 1{,}219{,}624{,}271{,}099{,}764 < 2^{53}-1.
+\]
+\end{theorem}
+
+\begin{theorem}[Sign Conjugacy]
+For every odd integer $c$ and every $n \in \mathbb{Z}$, $C_{-c}(n) = -C_c(-n)$. In particular, the positive cycles of $3n-1$ at $1$, $5$, and $17$ correspond bijectively to the negative cycles of $3n+1$ at $-1$, $-5$, and $-17$.
+\end{theorem}
+
+\section*{License and Copyright}
+Copyright \copyright\ 2026 Benjamin Stanley Frohman. All rights reserved. Licensed under the Apache License, Version 2.0 (\url{http://www.apache.org/licenses/LICENSE-2.0}).
+\end{document}

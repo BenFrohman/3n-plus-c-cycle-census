@@ -1,0 +1,33 @@
+{
+  "title": "A Prefix Census of 3n+c and 5n+1 Cycles, with One Verified Collatz Delay-Record Instance",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-09-24",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "doi": "10.5281/zenodo.23629488",
+  "creators": [
+    {
+      "name": "Frohman, Benjamin Stanley",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0006-7068-3718"
+    }
+  ],
+  "keywords": [
+    "Collatz conjecture",
+    "3n+c cycles",
+    "5n+1 map",
+    "hailstone delay record",
+    "Belaga-Mignotte",
+    "computational number theory"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/BenFrohman/3n-plus-c-cycle-census",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Origin Provenance: 2026-09-23 23:54:15 CDT (Git Initial Commit). Copyright (c) 2026 Benjamin Stanley Frohman. All rights reserved. Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0).",
+  "description": "<p>Cryptographically hashed prefix census of periodic orbits for <code>3n+c</code> (<code>c = +1, -1, +5</code>) and <code>5n+1</code>, proof of the sign-conjugacy theorem <code>C_{-c}(n) = -C_c(-n)</code>, and exact 1348-step trajectory verification of the maximal Collatz delay-record start below <code>10^{12}</code>, <code>n = 989,345,275,647</code> (peak <code>1,219,624,271,099,764 &lt; 2^{53}-1</code>).</p>"
+}

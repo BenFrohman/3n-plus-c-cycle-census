@@ -1,10 +1,15 @@
-3n+c cycle census
+3n-plus-c-cycle-census — A Prefix Census of 3n+c and 5n+1 Cycles, with One Verified Collatz Delay-Record Instance
 Copyright 2026 Benjamin Stanley Frohman
 ORCID: https://orcid.org/0009-0006-7068-3718
+GitHub: https://github.com/BenFrohman/3n-plus-c-cycle-census
+Zenodo DOI: https://doi.org/10.5281/zenodo.23629488
+Origin Provenance: 2026-09-23 23:54:15 CDT (Git Initial Commit)
 
-As of this commit, this repository is offered under the Apache License, Version 2.0.
-See LICENSE.
+This product includes software, formal Lean 4 proofs, and mathematical manuscripts developed by
+Benjamin Stanley Frohman (frohmanbenjamin@gmail.com).
 
-Copies already received under CC BY 4.0 keep that grant. This commit does not revoke it.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this work except in compliance with the License.
+You may obtain a copy of the License at
 
-Not a proof of the Collatz conjecture.
+    http://www.apache.org/licenses/LICENSE-2.0

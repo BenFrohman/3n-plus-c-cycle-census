@@ -1,23 +1,14 @@
 cff-version: 1.2.0
-message: If you use this census, please cite it.
-title: "A prefix census of 3n+c and 5n+1 cycles, with one verified Collatz instance"
-type: dataset
+message: "If you use this work, please cite it using the metadata below."
+title: "A Prefix Census of 3n+c and 5n+1 Cycles, with One Verified Collatz Delay-Record Instance"
 authors:
-  - family-names: Frohman
-    given-names: Benjamin Stanley
-    email: frohmanbenjamin@gmail.com
+  - family-names: "Frohman"
+    given-names: "Benjamin Stanley"
     orcid: "https://orcid.org/0009-0006-7068-3718"
-    alias: Investor0x
+    email: "frohmanbenjamin@gmail.com"
+version: "1.0.0"
+doi: "10.5281/zenodo.23629488"
+date-released: "2026-09-24"
+license: "Apache-2.0"
 repository-code: "https://github.com/BenFrohman/3n-plus-c-cycle-census"
-license: Apache-2.0
-keywords:
-  - Collatz
-  - 3n+1
-  - 3n+c
-  - 5n+1
-  - hailstone
-  - computational number theory
-abstract: >
-  Computational prefix census of the maps 3n+c and 5n+1, the conjugacy
-  C_{-c}(n)=-C_c(-n), and the verified instance T^{1348}(989345275647)=1.
-  This is not a proof of the Collatz conjecture.
+url: "https://doi.org/10.5281/zenodo.23629488"
