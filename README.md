@@ -64,3 +64,8 @@ This text is ready to upload to Zenodo as a *technical note / data set*. Do not 
 ## License
 
 Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under the Apache License, Version 2.0 (see [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE)).
+
+## Zenodo archive
+
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23629487.svg)](https://doi.org/10.5281/zenodo.23629487) A Prefix Census of 3n+c and 5n+1 Cycles, with One Verified Collatz Delay-Record Instance — all versions: [10.5281/zenodo.23629487](https://doi.org/10.5281/zenodo.23629487); latest version: [10.5281/zenodo.23629488](https://doi.org/10.5281/zenodo.23629488)
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23867577.svg)](https://doi.org/10.5281/zenodo.23867577) A Prefix Census of 3n+c and 5n+1 Cycles, with One Verified Collatz Delay-Record Instance — all versions: [10.5281/zenodo.23867577](https://doi.org/10.5281/zenodo.23867577); latest version: [10.5281/zenodo.23867578](https://doi.org/10.5281/zenodo.23867578)
