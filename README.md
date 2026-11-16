@@ -18,7 +18,7 @@
 Author: Benjamin Stanley Frohman  
 Email: frohmanbenjamin@gmail.com  
 ORCID: [0009-0006-7068-3718](https://orcid.org/0009-0006-7068-3718)  
-X: [@Investor0x](https://x.com/Investor0x)
+X: [@Frohmanian](https://x.com/Frohmanian)
 
 This repository is a signed computational survey of the maps
 
